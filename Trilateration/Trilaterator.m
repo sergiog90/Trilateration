@@ -1,17 +1,17 @@
 //
-//  Trilateration.m
-//  iBeaconDetector
+//  Trilate.m
+//  
 //
 //  Created by Sergio Garcia on 21/12/15.
 //  Copyright © 2015 Sergio Garcia. All rights reserved.
 //
 
-#import "Trilateration.h"
+#import "Trilaterator.h"
 
 #define radians(angle) ((angle) / 180.0 * M_PI)
 #define degrees(radians) ((radians) * (180.0 / M_PI))
 
-@implementation Trilateration
+@implementation Trilaterator
 
 + (void)trilaterate:(NSArray<Emission *> *)emissions
             success:(void (^)(Location *location))success

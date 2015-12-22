@@ -7,11 +7,12 @@ Pod::Spec.new do |s|
                     Assign latitude and logitude to your beacons and get your location using trilateration.
                    DESC
   s.homepage     = "https://github.com/sergiog90/Trilateration"
-  s.screenshots  = https://github.com/sergiog90/Trilateration/Screeshots/01.png"
+  s.screenshots  = "https://raw.githubusercontent.com/sergiog90/Trilateration/master/Screenshots/01.png"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Sergio García" => "sergiogm.amurrio@gmail.com" }
   s.social_media_url   = "https://twitter.com/sergio_g90"
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/sergiog90/Trilateration.git", :tag => s.version.to_s }
+  s.public_header_files = 'Trilateration/Trilateration.h'
   s.source_files  = "Trilateration", "Trilateration/**/*.{h,m}"
 end
