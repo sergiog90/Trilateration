@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Trilateration"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Trilateration for iOS based on located Beacons."
   s.description  = <<-DESC
                     Get your position with trilateration using located Beacons.

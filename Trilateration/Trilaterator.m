@@ -1,5 +1,5 @@
 //
-//  Trilate.m
+//  Trilaterator.m
 //  
 //
 //  Created by Sergio Garcia on 21/12/15.

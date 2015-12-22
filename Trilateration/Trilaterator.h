@@ -1,5 +1,5 @@
 //
-//  Trilateration.h
+//  Trilaterator.h
 //  
 //
 //  Created by Sergio Garcia on 21/12/15.
@@ -12,7 +12,7 @@
 #import "Emission.h"
 #import "Location.h"
 
-@interface Trilateration : NSObject
+@interface Trilaterator : NSObject
 
 + (void)trilaterate:(NSArray<Emission *> *)transmissions
             success:(void (^)(Location *location))success
